@@ -1,0 +1,244 @@
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius:3px;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.font{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px gray;
+
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+.container>header{
+    position: relative;
+}
+.in{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.lo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(248, 12, 12);
+    Border-bottom-left-radius: 50px;
+    
+}
+.lo>ul>li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-variant: small-caps;
+    height: 30px;
+}
+.lo>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.lo>ul>li>a:hover{
+    color: black;
+}
+.container>header>img{
+    width: 100%;
+}
+.in>h1{
+    padding: 0px;
+    margin-left:  10px;
+    text-align: center;
+    font-family: Impact;
+    font-size: 55px;
+    color: white;
+    letter-spacing: 3px;
+    border-bottom: 1px dotted white;
+    
+}
+.in>h3{
+    
+    letter-spacing: 2px;
+    color: white;
+}
+nav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+nav>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0px 10px;
+    line-height:40px;
+
+}
+nav>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:red;
+    text-align:center;
+}
+nav>ul>li>a:hover{
+    color: black;
+}
+nav>ul>li>ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 2px gray;
+}
+nav>ul>li>ul>li>a{
+    display: block;
+    line-height:30px;
+    color: red;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    text-align: left;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+nav>ul>li>ul>li>a:hover{
+    background-color: red;
+    color:white;
+}
+.he>img{
+    width: 100%;
+}
+.boxc{
+    width: 100%;
+}
+.boxl{
+    float: left;
+    width: 75%;
+    min-height: 500px;
+    /* position: relative; */
+}
+.boxr{
+    float: left;
+    width: calc(25% - 15px);
+    margin-left: 15px;
+    min-height: 500px;
+}
+.cot{
+    width: 25%;
+    float: left;
+}
+.sp{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.ten{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ten>a{
+    text-decoration: none;
+}
+.ten>a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.img{
+    max-width: 98%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.i1{
+    position: absolute;
+    float: left;
+    width: 80px;
+    bottom: 70px;
+    right: 10px;
+}
+
+.new{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+}
+.gia{
+    font-family: Impact;
+    color: red;
+}
+.vmenu>ul{
+    padding:0px;
+    margin:10px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px gray;
+    width: 290px;
+}
+.vmenu>ul>li{
+    border-bottom: 1px dotted red;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu>ul>li>a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;  
+    margin-left: 15px;
+    display: block;
+}
+.vmenu>ul>li>a:hover{
+    color: white;
+    font-weight: bold;
+}
+.vmenu>ul>li:hover{
+    background-color: red;
+}
+.container>footer>img{
+    width: 100%;
+}
+.f{
+    float: right;
+
+}
+footer{
+    clear:both;
+}

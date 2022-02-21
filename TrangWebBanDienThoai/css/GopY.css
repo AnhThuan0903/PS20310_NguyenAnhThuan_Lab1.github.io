@@ -1,0 +1,79 @@
+/* CSS trang góp ý */
+form{
+    width: 60%;
+    text-align: center;
+    margin: 5px auto;
+    background-color:burlywood;
+    padding: 10px 20px;
+    border-radius: 10px;
+    min-height: 600px;
+}
+input{
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+textarea{
+    border-radius: 5px;
+}
+button{
+    padding-right: 10px;
+}
+.box1{
+    padding-top: 50px;
+}
+/* thanh menu */
+nav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+nav>ul>li>a{
+    display: block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0px 10px;
+    line-height:40px;
+
+}
+nav>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:red;
+    text-align:center;
+}
+nav>ul>li>a:hover{
+    color: black;
+}
+nav>ul>li>ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 2px gray;
+}
+nav>ul>li>ul>li>a{
+    display: block;
+    line-height:30px;
+    color: red;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 10px;
+    text-align: left;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+nav>ul>li>ul>li>a:hover{
+    background-color: red;
+    color:white;
+}
